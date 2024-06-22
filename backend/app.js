@@ -24,8 +24,6 @@ app.use(express.json());
 app.use(cors());
 app.use("/files", express.static("files"));
 
-const JWT_SECRET =
-  "hvdvay6ert72839289()aiyg8t87qt72393293883uhefiuh78ttq3ifi78272jbkj?[]]pou89ywe";
 
 // Database connection
 mongoose
