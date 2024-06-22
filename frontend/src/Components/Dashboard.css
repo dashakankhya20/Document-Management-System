@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+.dashboard {
+    width:100%;
+    height:100vh;
+    /* height:90.7vh; */
+    margin:0;
+    padding:2rem;
+    /* background-image: url("../images/bisag_bgImage.jpg"); */
+    /* background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color:white; */
+    display:flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20vh;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);;
+}
+
+
+
+.dashboard_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-main{
+    /* width:80%;
+    height:auto;
+    position:relative;
+    margin-left: 160px;
+    border:1px solid black; */
+    width:80%;
+    margin-left: 20rem;
+    margin-top: 6rem;
+    position:sticky;
+}
+
+
+/* CSS for DashboardPage */
+/* DashboardPage.css */
+
+
+.services-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.services_container {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+  .services-header {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .services_card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(1, 135, 205, 0.2); /* Box shadow effect */
+  }
+  
+  .services_card i {
+    color: #0984e3; /* Icon color */
+  }
+  
+  .services_card h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .services_card p {
+    font-size: 14px;
+    color: #333333;
+  }
+  
